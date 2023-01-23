@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENQUIRY</title>
+    <style>
+         .main{
+            text-align: center;
+            word-spacing: 3px;
+            background-color: rgb(0, 255, 255);
+            width: 500px;
+            padding: 40px;
+            margin-left: 50%;
+        } 
+        .maincontainer input {
+         padding: 5px 10px 5px 10px;
+         margin-left: 10px;
+        }
+    
+       
+        h1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div  class="main">
+    <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">ENQUIRY </h1>
+       
+    <div class="maincontainer"><label style="font-size: 20px;">Select the State : </label><br>
+       <select>
+        <option>Telangana</option>
+        <option>Andhra Pradesh</option>
+        <option>TamilNadu</option>
+        <option>Chennai</option>
+        <option>Karnataka</option>
+        <option>Odissa</option>
+        <option>Harnachal Pradesh</option>
+       </select><br><br>
+       <label>Enter Your Name</label>
+       <input type="text" placeholder="Enter the Name"   id="textbox"/><br><br>
+       <label>Email</label>
+       <input type="text" placeholder="Enter the Email"   id="textbox"/><br><br>
+       <label>Date of Birth</label>
+       <input type="date"/><br><br>
+       <label>Phone Number</label>
+       <input type="number" placeholder="Enter the Phone"  id="textbox"/><br><br>
+       <label>Complete Address</label>
+       <input type="textarea" placeholder="Enter the Complete Address"  id="textbox"/><br><br>
+       <label style="font-size: 20px;">Enter your Query</label>
+       <textarea type="text" id="query"></textarea><br><br>
+       <button>Submit</button>
+    </div>
+    </div>
+</body>
+</html>
